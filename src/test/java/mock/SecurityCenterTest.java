@@ -11,7 +11,7 @@ public class SecurityCenterTest {
 
     public class DoorPanelMock extends DoorPanel{
         private Boolean hasCalled=false;
-        void close(){
+       public void close(){
             hasCalled=true;
         }
 
